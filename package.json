@@ -1,0 +1,53 @@
+{
+    "author": "botulf@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "ds-target",
+    "pebble": {
+        "capabilities": [
+            "health"
+        ],
+        "displayName": "DS-target",
+        "enableMultiJS": false,
+        "messageKeys": {},
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/planet_small.png",
+                    "name": "IMAGE_BG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/Audiowide-Regular.ttf",
+                    "name": "FONT_AW_18",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Audiowide-Regular.ttf",
+                    "name": "FONT_AW_36",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Audiowide-Regular.ttf",
+                    "name": "FONT_AW_28",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "58f5d8e3-e2e4-493d-9e97-65fb38192185",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
